@@ -1,0 +1,17 @@
+.carouselCard{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: aliceblue;
+    text-align: center;
+    margin: 15px;
+    
+}
+.hide{
+    display: block;
+}
+
+.hide:hover{
+    display: none;
+}
