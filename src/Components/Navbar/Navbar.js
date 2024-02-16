@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="navbar-dark bg-dark">
+    <Navbar expand="lg" className="navbar-dark bg-dark" >
       <Container className='d-flex flex-row justify-content-between text-light' >
         <Navbar.Brand as={Link} to="/" ><span><img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/logo-light.png" className='w-50' alt="" /></span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -15,12 +15,13 @@ function NavBar() {
             <Nav.Link as={Link} to="/" className=''>HOME</Nav.Link>
             <Nav.Link as={Link} to="tours" className=''>TOURS</Nav.Link>
             <Nav.Link as={Link} to="about" className=''>ABOUT</Nav.Link>
+            <Nav.Link as={Link} to="destiny" className=''>DESTINATIONS</Nav.Link>
             <NavDropdown title="PAGES" className='text-light' id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="about" >ABOUT</NavDropdown.Item>
               <NavDropdown.Item href="tours">
                 TOURS
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="destiny" >DESTINATIONS</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link

@@ -12,15 +12,19 @@ body{
     overflow:scroll;
 }
 
+
 @media screen and (max-width: 440px){
     .bodymain{
         flex-direction: column;
     }
     .frame,.text{
-        width: 95%;
+        width: 100%;
         text-align: center;
         
-        padding: 0;
+        padding: 0px;
+    }
+    .frame{
+        
     }
     
     

@@ -30,12 +30,15 @@ export const About = () => {
                 </div>
                 
             </div>
-            <div className="aboutmiddle">
-                <div className="video">
-                <iframe title="vimeo-player" src="https://player.vimeo.com/video/122149315?h=0223037cdb" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+            <div className="aboutmiddle ">
+                
+                <div className="aboutfram mt-3 col-12 col-md-6">
 
+                    <iframe  width="100%" height="100%"  title="vimeo-player" src="https://player.vimeo.com/video/122149315?h=0223037cdb"  allowfullscreen></iframe>
                 </div>
-                <div className="m-5">
+
+                
+                <div className="midtext col-12 col-md-6">
                     <h1>Humble Beginnings</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et pretium nibh. Nullam eget accumsan, sagittis ligula. Aliquam erat volutpat nuncum. Aene ac lorem id orci hendrerit facilisis sed sed leo ium. Vestibulum dignissim at libero pretium.</p>
                     <h3 style={{color: "yellow",fontFamily:'fantasy'}}>George</h3>

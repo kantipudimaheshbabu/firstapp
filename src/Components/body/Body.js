@@ -7,12 +7,12 @@ export const Body = () => {
     <div>
         <div className="bodymain">
           <div className="frame col-12 col-md-6">
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fvwOEhRmvJ0?si=AgfU-oVCXkDq_T8k" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width='100%' height='100%' src="https://www.youtube-nocookie.com/embed/fvwOEhRmvJ0?si=AgfU-oVCXkDq_T8k" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
               
           </div>
-          <div className="text p-2 col-12 col-md-6">
+          <div className="text p-4 col-12 col-md-6">
                 <h1>A Simply Perfect Place To Get Lost</h1>
                 <p className='para'>Treat yourself with a journey to your inner self. Visit a mystique Tibet and start your spiritual adventure. We promise, you’ll enjoy every step you make.</p>
                 <button className='btn btn-warning'>see more</button>

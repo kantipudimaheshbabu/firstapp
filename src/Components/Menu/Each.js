@@ -14,7 +14,7 @@ export const Each = () => {
     let tour=tourData.find((p)=>p.title===title)
     console.log(tour);
 
-    const[info,setInfo]=useState(false);
+    const[info,setInfo]=useState(true);
     const[plan,setPlan]=useState(false);
     const[loc,setLoc]=useState(false);
     const[gall,setGall]=useState(false);
@@ -67,7 +67,7 @@ export const Each = () => {
       <div className="">
         <ul className='eachnav'>
           <li><button onClick={Information}  className=''>Information</button></li>
-          <li><button onClick={tourPlan} className=''>Tour plan</button></li>
+          <li><button onClick={tourPlan} className=''>plan</button></li>
           <li><button onClick={location} className=''>Location</button></li>
           <li><button onClick={gallery}  className=''>Gallery</button></li>
           <li><button onClick={Reviews} className=''>Reviews</button></li>

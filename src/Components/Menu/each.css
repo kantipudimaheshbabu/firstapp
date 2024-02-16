@@ -86,14 +86,14 @@ button{
     .textcontainer{
         width: 100%;
         font-size: smaller;
-        overflow:auto;
+        
     }
     .eachform{
         width: 100%;
         font-size: smaller;
         padding: 1px;
         left: 0px;
-        overflow:auto;
+        
     }
     .buttons{
         display: flex;

@@ -5,8 +5,8 @@
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 140vh;
+    justify-content:center;
+    /* height: 140vh; */
     overflow: scroll;
     
     
@@ -37,7 +37,7 @@
     align-items: center;
     padding: 40px;
     font-family:'Times New Roman', Times, serif;
-    align-self: center;
+    
    
 
 
@@ -45,7 +45,48 @@
 
 .aboutmiddle{
     background-color: rgb(196, 216, 226);
-    display: flex;
-    padding: 60px;
+    display:flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
     
+}
+.aboutfram{
+    
+
+    
+}
+.midtext{
+    
+}
+
+
+
+@media (max-width:500px){
+    .aboutfacilities{
+        flex-direction: column;
+    }
+    .aboutmiddle{
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .abouteach{
+        padding: 20px;
+    }
+    .aboutfram{
+
+        
+    }
+
+    .headingg{
+        font-size: 40px;
+    }
+    .aboutmiddle{
+        padding: 20px;
+    }
+    .midtext{
+        text-align: center;
+    }
+
 }

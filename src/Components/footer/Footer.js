@@ -4,10 +4,10 @@ import './footer.css'
 const Footer = () => {
     return (
         <>
-            <div className="Footer bg-dark text-light">
+            <div className="Footer bg-dark text-light" >
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-lg-4 col-12 ft-1">
+                        <div className="col-md-3  col-12 ft-1">
                             <h3>CODES</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ea quo ex ullam laboriosam magni totam, facere eos iure voluptate.</p>
                             <div className="footer-icons">
@@ -17,7 +17,7 @@ const Footer = () => {
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-4 col-12 ft-2">
+                        <div className="col-md-3  col-12 ft-2">
                             <h5>Quick Links</h5>
                             <ul>
                                 <li className="">
@@ -37,11 +37,25 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-6 col-lg-4 col-12 ft-3">
+                        <div className="col-md-3  col-12 ft-3">
                             <h5>Quick Links</h5>
                             <p><i class="fa-solid fa-phone-volume"></i> 1234567890 </p>
                             <p><i class="fa-solid fa-envelope"></i> 12345@gmail.com</p>
                             <p><i class="fa-solid fa-paper-plane"></i>  wanders</p>
+                        </div>
+                        <div className="col-md-3  col-12">
+                        <div className="d-flex flex-row">
+                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-1-550x550.jpg" className='w-25' alt="" />
+                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-2-550x550.jpg" className='w-25' alt="" />
+                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-3-550x550.jpg" className='w-25' alt="" />
+                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-4-550x550.jpg" className='w-25' alt="" />
+                        </div>
+                        <div className="d-flex flex-row">
+                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-5-550x550.jpg" className='w-25' alt="" />
+                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-6-550x550.jpg" className='w-25' alt="" />
+                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-7-550x550.jpg" className='w-25' alt="" />
+                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-8-550x550.jpg" className='w-25' alt="" />
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -54,4 +68,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;

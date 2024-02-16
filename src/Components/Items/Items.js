@@ -15,13 +15,13 @@ export const Items = (props) => {
   return (
   <>
   <div className='p-2 text-left bgimage' >
-    <div className="box">
+    <div className="box" style={{backgroundImage:`url(${img})`}}>
 
-    <img src={img} alt={title} className='imge' />
-    <h6>{title}</h6>
-    <h6>{price}</h6>
+    {/* <img src={img} alt={title} className='imge' /> */}
+    <h2>{title}</h2>
+    {/* <h6>{price}</h6>
     <p>{about}</p>
-    <p>{days}</p>
+    <p>{days}</p> */}
 
     </div>
 

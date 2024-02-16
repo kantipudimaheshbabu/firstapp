@@ -9,8 +9,8 @@ export const Each = (props) => {
         <div className="carouselCard" style={{ backgroundImage: `url(${image})` }}>
             
             <h1>{heading}</h1>
-            <p className='hide'>{about}</p>
-            <p className='text-warning fs-4'>{price}</p>
+            {/* <p className='hide'>{about}</p>
+            <p className='text-warning fs-4'>{price}</p> */}
         </div>
     </div>
   )

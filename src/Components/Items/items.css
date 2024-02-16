@@ -12,11 +12,27 @@
     transform: scale(0.95);
 }
 .box{
-    width: 350px;
+    width: 340px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+
+    
+}
+.box:hover{
+    transform:scale(1.05);
+}
+h2:hover{
+    transform:scale(1.05);
 }
 
-h6{
-    font-family: fantasy;
+h2{
+    font-family:cursive;
+    color: white;
+    text-decoration: none;
 }
 /* p{
     color: grey;

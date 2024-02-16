@@ -4,7 +4,7 @@ import './App.css'
 
 
 import  NavBar  from './Components/Navbar/Navbar';
-// import { Func } from './Func';
+
 
 import Footer from './Components/footer/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -14,6 +14,7 @@ import { About } from './Components/about/About';
 import { Each } from './Components/Menu/Each';
 
 import Notfound from './Components/home/Notfound';
+import { Destiny } from './Components/home/Destiny';
 
 
 
@@ -34,6 +35,7 @@ import Notfound from './Components/home/Notfound';
         <Route path="/"  index element={<Home/>}  />
         <Route path="tours" element={<Menu/>} />
         <Route path="about" element={<About/>} />
+        <Route path="destiny" element={<Destiny/>} />
         <Route path="/:title" element={<Each/>} />
         <Route path="*" element={<Notfound/>} />
         

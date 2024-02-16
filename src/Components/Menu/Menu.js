@@ -16,7 +16,7 @@ export const Menu = () => {
 
         return(
           <>
-          <Link to={`/${item.title}`}><Items props={item} key={item.id} /></Link>
+          <Link className='tourlink' to={`/${item.title}`}><Items props={item} key={item.id} /></Link>
         
          </>)
       }
