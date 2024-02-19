@@ -44,18 +44,18 @@ const Footer = () => {
                             <p><i class="fa-solid fa-paper-plane"></i>  wanders</p>
                         </div>
                         <div className="col-md-3  col-12">
-                        <div className="d-flex flex-row">
-                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-1-550x550.jpg" className='w-25' alt="" />
-                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-2-550x550.jpg" className='w-25' alt="" />
-                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-3-550x550.jpg" className='w-25' alt="" />
-                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-4-550x550.jpg" className='w-25' alt="" />
-                        </div>
-                        <div className="d-flex flex-row">
-                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-5-550x550.jpg" className='w-25' alt="" />
-                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-6-550x550.jpg" className='w-25' alt="" />
-                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-7-550x550.jpg" className='w-25' alt="" />
-                            <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-8-550x550.jpg" className='w-25' alt="" />
-                        </div>
+                            <div className="d-flex flex-row">
+                                <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-1-550x550.jpg" className='w-25' alt="" />
+                                <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-2-550x550.jpg" className='w-25' alt="" />
+                                <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-3-550x550.jpg" className='w-25' alt="" />
+                                <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-4-550x550.jpg" className='w-25' alt="" />
+                            </div>
+                            <div className="d-flex flex-row">
+                                <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-5-550x550.jpg" className='w-25' alt="" />
+                                <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-6-550x550.jpg" className='w-25' alt="" />
+                                <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-7-550x550.jpg" className='w-25' alt="" />
+                                <img src="https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/tour-1-img-8-550x550.jpg" className='w-25' alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>

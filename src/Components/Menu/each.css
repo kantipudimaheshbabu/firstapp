@@ -48,6 +48,7 @@
 .textcontainer{
     flex: 8;
     background-color: white;
+    height: auto;
     overflow-y: scroll;
 
 }
