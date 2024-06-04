@@ -1,17 +1,17 @@
-h1:hover{
-    color: yellow;
-}
-h3:hover{
-    color: yellow;
+li{
+    list-style-type: none;
 }
 
-body{
-    scroll-behavior: smooth;
+
+ .scroller{
+    width: 100%;
+    overflow-x: scroll;
+
+} 
+
+.contentoverflow{
+    display: flex;
+    white-space: nowrap;
+   
+    
 }
-
-/* *{
-    font-family: "Playfair Display";
-
-} */
-
-
