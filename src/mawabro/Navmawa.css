@@ -1,0 +1,20 @@
+.faq{
+    background: rgb(224, 228, 143);
+background: radial-gradient(circle, rgba(228,239,32,1) 0%, rgba(233,201,18,1) 100%);
+  }
+
+  .nav-bg{
+    background-color:rgb(23, 5, 69);
+    color:white;
+
+  }
+
+  label{
+    color:rgb(23, 5, 69) ;
+    font-weight: bold;
+  }
+
+  .find-bg{
+    background: rgb(32,239,177);
+background: radial-gradient(circle, rgba(32,239,177,1) 0%, rgba(233,201,18,1) 100%);
+  }
